@@ -6,8 +6,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.get('/', (req, res) => {
-    res.send('Conectado')
-})
+// app.get('/', (req, res) => {
+//     res.send('Conectado')
+// })
+
+require('./controllers/authControler')(app);
 
 app.listen(3000);
