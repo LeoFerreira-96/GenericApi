@@ -1,0 +1,13 @@
+{
+    "todo-tree.highlights.customHighlight": {
+        // "IMPORTANT": {
+        //     "icon": "exclamation",
+        //     "type": "line"
+        // },
+        "IMPORTANT": {
+            "foreground": "RED",
+            "iconColour": "yellow",
+            "gutterIcon": true
+        }
+    }
+}
