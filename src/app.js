@@ -1,12 +1,8 @@
 //Core da Aplicação
 import express from "express";
-import * as dotenv from "dotenv";
 import routes from "./routes";
 import cors from "cors";
 import "./config/database.js";
-
-dotenv.config();
-
 class App {
   constructor() {
     this.server = express();
